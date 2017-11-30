@@ -5,4 +5,5 @@ this is line 4;
 create a new branch;
 this is master;
 Creating a new branch is quick AND simple;
+this is line5;
 
