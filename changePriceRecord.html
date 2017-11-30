@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>智能调价改价记录</title>
+		<style>
+			.changePriceRecord-outerContainer {
+				height: 100%;
+				overflow-y: auto;
+				background-color: #f8f8f9;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.changePriceRecord-myh1Style {
+				font-family: MicrosoftYaHei;
+				font-size: 16px;
+				color: #333333;
+				letter-spacing: 0;
+				text-align: left;
+				margin-top: 24px;
+				margin-bottom: 19px;
+			}
+			
+			.changePriceRecord-mianContentContainer {
+				border: 1px solid #EAEAEA;
+			}
+			
+			.changePriceRecord-mianContent {
+				background: #ffffff;
+				border: 1px solid #eeeeee;
+			}
+			
+			.changePriceRecord-mianContent>* {
+				font-family: MicrosoftYaHei;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			
+			.changePriceRecord-myh2Style {
+				font-size: 14px;
+				color: #333333;
+				letter-spacing: 0;
+				line-height: 22px;
+			}
+			
+			.changePriceRecord-tableModel .changePriceRecord-myh2Style {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			
+			.changePriceRecord-header {
+				margin-top: 24px;
+				margin-bottom: 8px;
+			}
+			
+			.changePriceRecord-tableModel {
+				margin-top: 26px;
+				margin-bottom: 0;
+			}
+			
+			.changePriceRecord-myh3Style {
+				margin-top: 0;
+				margin-bottom: 8px;
+				font-size: 12px;
+				color: #333333;
+				letter-spacing: 0;
+				line-height: 22px;
+				float: left;
+			}
+			
+			.changePriceRecord-note {
+				font-size: 12px;
+				color: #999999;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			
+			.changePriceRecord-houseID {
+				line-height: 22px;
+				margin-bottom: 8px;
+				float: right;
+			}
+			
+			.changePriceRecord-mianContent table {
+				width: 100%;
+				margin-bottom: 23px;
+				background: #f8f8f9;
+				border: 1px solid #dddddd;
+				border-collapse: collapse;
+				clear: left;
+			}
+			
+			.changePriceRecord-mianContent tr {
+				height: 39px;
+			}
+			
+			.changePriceRecord-mianContent th,
+			.changePriceRecord-mianContent td {
+				font-size: 12px;
+				color: #333333;
+				line-height: 18px;
+				text-align: center;
+				border: 1px solid #dddddd;
+			}
+			
+			.changePriceRecord-mianContent td {
+				background-color: #FFFFFF;
+			}
+			
+			.changePriceRecord-paging {
+				height: 28px;
+				margin-bottom: 45px;
+			}
+			
+			.changePriceRecord-pagingButton {
+				float: right;
+				margin-left: 8px;
+				width: 26px;
+				height: 26px;
+				border: 1px solid #dddddd;
+				border-radius: 4px;
+				text-align: center;
+			}
+			
+			.changePriceRecord-pagingNote {
+				float: right;
+				line-height: 18px;
+				margin-top: 5px;
+				margin-right: 8px;
+				color: #666666;
+			}
+			
+			.changePriceRecord-pagingButton a {
+				text-decoration: none;
+				display: inline-block;
+				margin-top: 5px;
+				font-size: 12px;
+				color: #333333;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="changePriceRecord-outerContainer">
+			<h1 class="changePriceRecord-myh1Style">智能调价改价记录</h1>
+			<div class="changePriceRecord-mianContentContainer">
+				<div class="changePriceRecord-mianContent">
+					<h2 class="changePriceRecord-myh2Style changePriceRecord-header">您已启用智能调价功能，智能调价将每天为您调整包括当天在内的最近7天的房屋价格。具体见下表。</h2>
+					<p class="changePriceRecord-note">注：由于数据的实时性和市场波动性，同一个入住日期，其下单日期不同，对应的订单价格有可能会不同。</p>
+					<div class="changePriceRecord-tableModel">
+						<h2 class="changePriceRecord-myh2Style">房屋名称：上海瀛洲家庭旅馆1居室</h2>
+						<h3 class="changePriceRecord-myh3Style">调价日期：2107-10-10</h3>
+						<p class="changePriceRecord-note changePriceRecord-houseID">房屋ID：446677</p>
+						<table>
+							<tr>
+								<th>入住日期</th>
+								<th>2017-10-11</th>
+								<th>2017-10-12</th>
+								<th>2017-10-13</th>
+								<th>2017-10-14</th>
+								<th>2017-10-15</th>
+								<th>2017-10-16</th>
+								<th>2017-10-17</th>
+							</tr>
+							<tr>
+								<td>调整后价格</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="changePriceRecord-tableModel">
+						<h2 class="changePriceRecord-myh2Style">房屋名称：上海瀛洲家庭旅馆1居室</h2>
+						<h3 class="changePriceRecord-myh3Style">调价日期：2107-10-10</h3>
+						<p class="changePriceRecord-note changePriceRecord-houseID">房屋ID：446677</p>
+						<table>
+							<tr>
+								<th>入住日期</th>
+								<th>2017-10-11</th>
+								<th>2017-10-12</th>
+								<th>2017-10-13</th>
+								<th>2017-10-14</th>
+								<th>2017-10-15</th>
+								<th>2017-10-16</th>
+								<th>2017-10-17</th>
+							</tr>
+							<tr>
+								<td>调整后价格</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="changePriceRecord-tableModel">
+						<h2 class="changePriceRecord-myh2Style">房屋名称：上海瀛洲家庭旅馆1居室</h2>
+						<h3 class="changePriceRecord-myh3Style">调价日期：2107-10-10</h3>
+						<p class="changePriceRecord-note changePriceRecord-houseID">房屋ID：446677</p>
+						<table>
+							<tr>
+								<th>入住日期</th>
+								<th>2017-10-11</th>
+								<th>2017-10-12</th>
+								<th>2017-10-13</th>
+								<th>2017-10-14</th>
+								<th>2017-10-15</th>
+								<th>2017-10-16</th>
+								<th>2017-10-17</th>
+							</tr>
+							<tr>
+								<td>调整后价格</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="changePriceRecord-tableModel">
+						<h2 class="changePriceRecord-myh2Style">房屋名称：上海瀛洲家庭旅馆1居室</h2>
+						<h3 class="changePriceRecord-myh3Style">调价日期：2107-10-10</h3>
+						<p class="changePriceRecord-note changePriceRecord-houseID">房屋ID：446677</p>
+						<table>
+							<tr>
+								<th>入住日期</th>
+								<th>2017-10-11</th>
+								<th>2017-10-12</th>
+								<th>2017-10-13</th>
+								<th>2017-10-14</th>
+								<th>2017-10-15</th>
+								<th>2017-10-16</th>
+								<th>2017-10-17</th>
+							</tr>
+							<tr>
+								<td>调整后价格</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+								<td>¥188.00</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="changePriceRecord-paging">
+
+						<div class="changePriceRecord-pagingButton">
+							<a href="#"><img src="changePriceRecord-right.png" /></a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#">10</a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#" style="color: #cccccc;">…</a>
+						</div>
+						<div class="changePriceRecord-pagingButton" style="border-color: #8c9eff;">
+							<a href="#" style="color: #8c9eff">5</a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#">4</a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#">3</a>
+						</div>
+						<div class="changePriceRecord-pagingButton" style="background:#6e80e3;">
+							<a href="#" style="color:#ffffff;">2</a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#">1</a>
+						</div>
+						<div class="changePriceRecord-pagingButton">
+							<a href="#"><img src="changePriceRecord-left.png" /></a>
+						</div>
+						<p class="changePriceRecord-note changePriceRecord-pagingNote">总计24条</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
